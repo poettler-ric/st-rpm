@@ -68,6 +68,7 @@ done
 mkdir -p %{buildroot}%{_stsourcedir}
 install -m644 config.mk Makefile st.info *.h *.c \
     %{buildroot}%{_stsourcedir}
+rm %{buildroot}%{_stsourcedir}/config.h
 touch %{buildroot}%{_bindir}/%{name}
 desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 
