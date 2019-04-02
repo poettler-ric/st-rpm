@@ -1,6 +1,6 @@
 Name:             st
-Version:          0.8.1
-Release:          4%{?dist}
+Version:          0.8.2
+Release:          1%{?dist}
 Summary:          A simple terminal implementation for X
 %global           _stsourcedir %{_usrsrc}/%{name}-user-%{version}-%{release}
 License:          MIT
